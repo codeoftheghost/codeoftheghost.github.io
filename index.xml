@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReturnVoid</title>
-    <link>https://codeofghost.github.io/</link>
+    <link>https://codeoftheghost.github.io/</link>
     <description>Recent content on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="https://codeofghost.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language><atom:link href="https://codeoftheghost.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
