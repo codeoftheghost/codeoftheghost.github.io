@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ReturnVoid</title>
-    <link>/</link>
-    <description>Recent content on ReturnVoid</description>
+    <title>Posts on ReturnVoid</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Tue, 15 Oct 2024 10:47:35 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 10:47:35 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pengenalan Python</title>
       <link>/posts/python/pengenalan-python/</link>
