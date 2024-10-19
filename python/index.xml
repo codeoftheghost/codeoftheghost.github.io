@@ -13,8 +13,160 @@
       <pubDate>Wed, 16 Oct 2024 23:44:57 +0800</pubDate>
       
       <guid>/python/pengenalan-python/</guid>
-      <description>Pengenalan python </description>
+      <description>Pengenalan python Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.</description>
       <content>&lt;h1 id=&#34;pengenalan-python&#34;&gt;Pengenalan python&lt;/h1&gt;
+&lt;p&gt;Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.&lt;/p&gt;
+&lt;p&gt;Bahasa pemrograman python ini juga dapat kita gunakan secara bebas, gratis, dan dapat kita modifikasi serta menyebarluaskan hasil modifikasi yang dibuat. Ini karena, python bersifat open source (sumber terbuka) dan dirilis dengan lisensi Python Software Foundation License (PSFL)&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;/images/python/python-logo.png&#34;  alt=&#34;Python Logo&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Logo Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h1 id=&#34;sejarah-singkat-pengembangan-python&#34;&gt;Sejarah Singkat Pengembangan Python&lt;/h1&gt;
+&lt;p&gt;Bahasa pemrograman python dikembangkan oleh Guido Van Rossum, seorang programmer asal Belanda. Python dirancang sebagai penerus dari bahasa pemrograman ABC, dengan tujuan untuk menciptakan bahasa pemrograman yang mudah dipelajar dan digunakan. Guido Van Rossum merilis python pertama kali ke pulik pada tanggal 20 Februari 1991 dengan versi python 0.9.0, yang sudah menyertakan beberapa fitur penting yang masih digunakan hingga sekarang.&lt;/p&gt;
+&lt;p&gt;Nama python sendiri terinspirasi dari kelompok komedi Inggris &amp;ldquo;Monty Python&amp;rsquo;s Flying Circus&amp;rdquo;, yang sangat disukai oleh Guido Van Rossum. Karena itu, dokumentasi dan contoh kode python sering kali memiliki unsur humor.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;/images/python/guido-van-rossum.png&#34;  alt=&#34;Guido Van Rossum&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Guido Van Rossum&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h1 id=&#34;versi-python&#34;&gt;Versi Python&lt;/h1&gt;
+&lt;p&gt;Python memiliki berbagai versi yang telah dirilis sejak pertama kali dikembangkan. Setiap versi membawa pembaruan, perbaikan bug, dan terkadang perubahan besar pada cara kerja bahasa pemrograman ini. Berikut berbagai versi dari bahasa pemrograman python:&lt;/p&gt;
+&lt;h2 id=&#34;versi-mayor-minor-dan-patch&#34;&gt;Versi Mayor, Minor, dan Patch&lt;/h2&gt;
+&lt;p&gt;Setiap versi python yang dirilis ke publik, terdapat tiga angka yang dipisahkan oleh titik pada nama filenya, contoh &lt;mark&gt;python-3.10.15&lt;/mark&gt;. Ketiga angka ini melambangkan versi mayor, minor, dan patch dari versi python tersebut. Dimana angka tiga adalah versi mayor, 10 adalah versi minor, dan 15 adalah versi patch dari contoh rilis python.&lt;/p&gt;
+&lt;h3 id=&#34;versi-mayor&#34;&gt;Versi Mayor&lt;/h3&gt;
+&lt;p&gt;Versi mayor dilambangkan dengan angka pertama dalam nomor versi, contoh &lt;mark&gt;2.x.x&lt;/mark&gt; atau &lt;mark&gt;3.x.x&lt;/mark&gt;. Perubahan pada angka versi mayor ini sering kali mencakup perubahan besar dalam bahasa pemrograman python, dimana versi mayor sebelumnya tidak akan kompatibel dengan versi mayor yang baru.&lt;/p&gt;
+&lt;h3 id=&#34;versi-minor&#34;&gt;Versi Minor&lt;/h3&gt;
+&lt;p&gt;Versi minor dilambangkan dengan angka kedua dalam nomor versi, contoh &lt;mark&gt;x.2.10&lt;/mark&gt;. Perubahan pada angka versi minor ini, biasanya merupakan peningkatan atau penambahan fitur baru dan perbaikan, sambil tetap menjaga kompabilitas dengan versi minor sebelumnya dalam versi mayor yang sama.&lt;/p&gt;
+&lt;h3 id=&#34;versi-patch&#34;&gt;Versi Patch&lt;/h3&gt;
+&lt;p&gt;Versi patch dilambangkan dengan angka ketiga atau terakhir dalam nomor versi, contoh &lt;mark&gt;x.x.15&lt;/mark&gt;. Perubahan versi patch ini, biasanya berisi perbaikan bug dan peningkatan keamanan, dan tanpa penambahan fitur baru.&lt;/p&gt;
+&lt;h2 id=&#34;daftar-rilis-versi-mayor-python&#34;&gt;Daftar Rilis Versi Mayor Python&lt;/h2&gt;
+&lt;p&gt;Sejak pertama kali diperkenalkan, python sudah merilis beberapa versi mayor:&lt;/p&gt;
+&lt;h3 id=&#34;python-1xx&#34;&gt;Python 1.x.x&lt;/h3&gt;
+&lt;p&gt;Ini adalah versi mayor pertama yang dirilis oleh python. Dimulai dari versi 1.0 pada tahun 1994, hingga versi 1.6 pada tahun 2000. Versi ini memperkenalkan fitur-fitur dasar seperti kelas, pewarisan, tipe data, dan modul.&lt;/p&gt;
+&lt;h3 id=&#34;python-2xx&#34;&gt;Python 2.x.x&lt;/h3&gt;
+&lt;p&gt;Dimulai dengan versi 2.0 yang diluncurkan pada tahun 2000, versi mayor ini dikenal juga dengan nama &lt;mark&gt;python2&lt;/mark&gt;, dan memperkenalkan banyak fitur baru dan juga memperluas fitur yang sudah ada. Versi ini merupakan versi mayor yang digunakan selama lebih dari satu dekade. Namun, meskipun dirilis dengan berbagai fitur dan peningkatan, versi ini masih memiliki berbagai keterbatasan, terutama dalam hal dukungan unicode dan pengolaan memori. Python 2.7 yang dirilis pada tahun 2010, merupakan rilis terakhir dari versi mayor ini. Versi mayor ini mencapai akhir dukungan pengembangan atau yang disebut dengan &lt;mark&gt;&amp;ldquo;end of life (EOL)&amp;quot;&lt;/mark&gt; pada 1 Januari 2010.&lt;/p&gt;
+&lt;h3 id=&#34;python-3xx&#34;&gt;Python 3.x.x&lt;/h3&gt;
+&lt;p&gt;Karena keterbatasan pada python versi mayor 2.x.x, pengembang python mulai mengembangkan versi mayor berikutnya. Versi mayor 3.x.x pertama yang dirilis ke publik ialah python 3.0 pada tahun 2008. Versi mayor ini atau yang dikenal dengan nama &lt;mark&gt;python3&lt;/mark&gt;, mengatasi kekurangan pada versi mayor sebelumnya dan membawa berbagai fitur baru dan perubahan seperti tipe data unicode, pembagian integer yang lebih intuitif, dan sintaks yang lebih bersih. Hingga saat tulisan ini dibuat, versi mayor ini masih terus dikembangkan dengan rilis terbaru &lt;mark&gt;Python 3.13.0&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Mungkin kalian yang membaca, memiliki pertanyaan tentang &lt;mark&gt;kenapa tidak ada versi mayor 0.x.x?&lt;/mark&gt; mengingat versi pertama python yang dirilis ke publik adalah 0.9.0 dirilis pada tahun 1991. Versi mayor 0.x.x memang ada, tetapi tidak saya sebutkan diatas karena versi mayor ini tidak dianggap resmi. Versi mayor 0.x.x adalah versi awal pengembangan python, dan dianggap belum stabil dan belum siap untuk digunakan secara luas. Oleh karena itu, versi mayor 0.x.x dianggap sebagai bagian dari pengembangan versi mayor 1.x.x yang dianggap stabil dan siap digunakan secara luas.&lt;/p&gt;
+&lt;p&gt;Untuk melihat lebih lengkap versi python yang telah dirilis, dari versi pertama hingga yang paling baru beserta dengan perubahan-perubahannya, kalian bisa melihatnya pada halaman berikut: &lt;a href=&#34;https://www.python.org/downloads/source/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Python Source Release&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;versi-python-yang-saat-ini-direkomendasikan&#34;&gt;Versi Python yang saat ini Direkomendasikan&lt;/h2&gt;
+&lt;p&gt;Setelah membaca penjelasan tentang berbagai versi python yang sudah dirilis diatas, mungkin kalian bingung tentang versi python apa yang harus digunakan.&lt;/p&gt;
+&lt;h3 id=&#34;python-3xx-terbaru&#34;&gt;Python 3.x.x Terbaru&lt;/h3&gt;
+&lt;p&gt;Jawaban sederhana dari pertanyaan &lt;mark&gt;versi python apa yang harus saya gunakan?&lt;/mark&gt; ialah, gunakan versi python3 dengan rilis terbaru. Karena versi mayor 3.x.x masih aktif dikembangkan dan rilis terbaru python membawa berbagai perbaikan performa dan fitur baru. Jadi, penggunaan rilis terbaru sangat direkomendasikan untuk belajar atau membuat aplikasi baru dengan python.&lt;/p&gt;
+&lt;h3 id=&#34;lts-long-term-support&#34;&gt;LTS (Long-Term Support)&lt;/h3&gt;
+&lt;p&gt;Python sebenarnya tidak merilis versi LTS secara resmi. Tetapi beberapa komunitas dan pengembang python sering kali memberikan dukungan pengembangan pada versi mayor dan minor tertentu, untuk jangka waktu yang lebih lama. Rilis inilah yang biasa disebut sebagai rilis LTS oleh komunitas (meskipun tidak resmi). Contoh dari versi ini ialah &lt;mark&gt;Python 3.6&lt;/mark&gt; dan &lt;mark&gt;Python 3.7&lt;/mark&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;versi-python-yang-digunakan-pada-catatan-ini&#34;&gt;Versi Python yang digunakan pada Catatan ini&lt;/h2&gt;
+&lt;p&gt;Pada catatan ini, saya menggunakan versi terakhir yang dirilis saat saya membuat catatan ini, yaitu &lt;mark&gt;Python 3.13.0&lt;/mark&gt;. Versi ini mungkin akan berubah kedepannya jika pengembang python merilis versi terbaru.&lt;/p&gt;
+&lt;h1 id=&#34;filosofi-dan-prinsip-desain-python&#34;&gt;Filosofi dan Prinsip Desain Python&lt;/h1&gt;
+&lt;p&gt;Dalam mengembangkan bahasa ini, pengembang python mengikuti filosofi desain yang dikenal sebagai &lt;mark&gt;&amp;ldquo;The Zen of Python&amp;rdquo;&lt;/mark&gt;, yang merangkum prinsip-prinsip desain utama seperti:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beautiful is better than ugly, Explicit is better than implicit, Simple is better than complex, and Readability counts.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dengan mengikuti prisin desain ini, python menjadi bahasa pemrograman yang mudah untuk dibaca dan ditulis, dengan sintaks yang bersih, jelas, dan menyerupai bahasa Inggris.&lt;/p&gt;
+&lt;h1 id=&#34;fitur-fitur-utama-python&#34;&gt;Fitur-fitur Utama Python&lt;/h1&gt;
+&lt;p&gt;Python memiliki beberapa fitur utama yang membuat bahasa ini powerfull dan populer digunakan. Diantaranya ialah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Interpretasi: Python adalah bahasa yang diinterpretasikan, yang berarti kode program yang ditulis dengan bahasa ini dieksekusi atau dijalankan baris per baris tanpa perlu dikompilasi terlebih dahulu. Ini memudahkan kita untuk debuging dan bereksperimen atau hanya sekedar mencoba-coba kode program.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tipe Data Dinamis: Python adalah bahasa dengan tipe dinamis, yang berarti Anda tidak perlu mendeklarasikan tipe variabel secara eksplisit. Tipe variabel ditentukan saat runtime.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bahasa Tingkat Tinggi: Python menyembunyikan banyak detail teknis yang rumit, seperti manajemen memori, sehingga kita sebagai programmer, dapat fokus pada logika pemrograman tingkat tinggi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pustaka Standar yang Luas: Python dilengkapi dengan pustaka atau library standar yang luas, yang mencakup modul-modul untuk berbagai tugas seperti manipulasi string, operasi file, matematika, dan masih banyak lagi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Berorientasi Objek dan Fungsional: Python mendukung pemrograman berorientasi objek (OOP) dan pemrograman fungsional, memberikan fleksibilitas dalam pendekatan pengembangan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lintas Platform: Python adalah bahasa lintas platform, artinya kode Python dapat dijalankan di berbagai sistem operasi seperti Windows, macOS, dan Linux tanpa perubahan besar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ekosistem-python&#34;&gt;Ekosistem Python&lt;/h1&gt;
+&lt;p&gt;Selain pustaka standar yang luas, python juga memiliki pustaka atau library pihak ketiga yang sangat banyak. Terdapat lebih dari 300.000 paket pustaka yang tersedia di Python Package Index (PyPI). Pustaka-pustaka ini mencakup berbagai bidang, seperti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Data Science dan Analisis Data: pandas, numpy, scikit-learn, matplotlib.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web Development: Django, Flask, FastAPI.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Machine Learning dan AI: TensorFlow, PyTorch, Keras.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automation and Scripting: Selenium, Requests, BeautifulSoup.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;penerapan-python&#34;&gt;Penerapan python&lt;/h1&gt;
+&lt;p&gt;Dengan pustaka standar dan pihak ketiga yang melimpah dan mencakup berbagai bidang, membuat bahasa python cocok digunakan untuk membuat berbagai aplikasi atau perangkat lunak. Berikut beberapa contoh penerapan python di berbagai bidang:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Web Development: Dengan framework seperti Django dan Flask, Python banyak digunakan untuk membangun aplikasi web dan API. Django, khususnya, dikenal dengan pendekatan “batteries-included”, menyediakan banyak fitur bawaan untuk mempermudah pengembangan web.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Science dan Analisis Data: Python menjadi bahasa pilihan utama dalam bidang data science, analisis data, dan big data. Pustaka seperti pandas, numpy, dan matplotlib memungkinkan manipulasi dan visualisasi data dengan mudah.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Machine Learning dan AI: Python mendominasi dalam bidang machine learning dan AI berkat pustaka seperti TensorFlow, PyTorch, dan scikit-learn yang memudahkan pengembangan model machine learning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automasi dan Scripting: Python sering digunakan untuk menulis skrip untuk automasi tugas-tugas berulang, seperti mengolah data, mengelola file, dan berinteraksi dengan sistem operasi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Game Development: Python juga digunakan dalam pengembangan game, meskipun tidak sepopuler dalam bidang lain. Pustaka seperti Pygame memungkinkan pembuatan game sederhana.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Internet of Things (IoT): Dengan dukungan terhadap platform seperti Raspberry Pi, Python banyak digunakan dalam proyek IoT untuk mengendalikan perangkat keras dan sensor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;keunggulan-dan-keterbatasan-python&#34;&gt;Keunggulan dan Keterbatasan Python&lt;/h1&gt;
+&lt;p&gt;Python memiliki beberapa keunggulan yang dapat kita pertimbangkan sebagai pilihan untuk membuat aplikasi, atau sebagai bahasa pemrograma pertama untuk kita pelajari. Berikut beberapa diantaranya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mudah Dipelajari dan Digunakan: Python adalah bahasa yang ramah bagi pemula dengan sintaks yang mudah dipahami.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Komunitas yang Besar: Python memiliki komunitas yang sangat aktif, yang berarti banyak sumber daya, tutorial, dan bantuan yang tersedia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ekosistem Pustaka yang Kuat: Python memiliki pustaka untuk hampir semua kebutuhan, dari web development hingga machine learning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meskipun dengan berbagai kelebihan dan keunggulan python seperti yang sudah saya tuliskan diatas, python bukanlah bahasa pemrograman &lt;em&gt;silver bullet&lt;/em&gt;. Python juga memiliki berbagai keterbatasan, seperti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kecepatan Eksekusi: Sebagai bahasa yang diinterpretasikan, Python bisa lebih lambat dibandingkan bahasa yang dikompilasi seperti C atau Java.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bukan Pilihan Terbaik untuk Aplikasi Mobile dan Game: Meskipun memungkinkan, Python bukan bahasa yang paling efisien untuk pengembangan aplikasi mobile dan game yang memerlukan performa tinggi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;kenapa-kita-mempelajari-python&#34;&gt;Kenapa Kita Mempelajari Python?&lt;/h1&gt;
+&lt;p&gt;Python adalah bahasa pemrograman yang cocok untuk dipelajari oleh pemula (ini masih bisa diperdebatkan). Ini karena kemudahan penggunaanya, sintaksnya yang bersih dan mudah dibaca dan ditulis. Selain itu, ada banyak sekali sumber untuk mempelajari bahasa pemrograman ini, seperti dokumentasi resmi python, buku, kursus online, tutoriall atau catatan di situs web (seperti catatan ini) yang sebagian besar tersedia secara gratis.&lt;/p&gt;
+&lt;p&gt;Python terus dikembangkan dengan versi terbaru yang dirilis secara berkala. Bahasa pemrograman ini semakin populer dan diperkirakan akan tetap relevan di masa mendatang, terutama di bidang seperti data science, AI, dan automasi.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;/images/python/python-tiobe-index.png&#34;  alt=&#34;peringkat python di TIOBE Programming Community index 2024&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Peringkat python di TIOBE Programming Community index 2024&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Python menempati peringkat satu sebagai bahasa pemrograman terpopuler menurut TIOBE Programming Community Index. Tentu jika kita ingin berkarir sebagai seorang programmer, menguasai bahasa ini merupakan salah satu investasi besar untuk kedepannya.&lt;/p&gt;
 </content>
     </item>
     

@@ -5,6 +5,57 @@
     <link>/tags/</link>
     <description>Recent content in Tags on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language>
+    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bahasa-pemrograman</title>
+      <link>/tags/bahasa-pemrograman/</link>
+      <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
+      
+      <guid>/tags/bahasa-pemrograman/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>bahasa-pemrograman-python</title>
+      <link>/tags/bahasa-pemrograman-python/</link>
+      <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
+      
+      <guid>/tags/bahasa-pemrograman-python/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>pemrograman</title>
+      <link>/tags/pemrograman/</link>
+      <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
+      
+      <guid>/tags/pemrograman/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>pengenalan-python</title>
+      <link>/tags/pengenalan-python/</link>
+      <pubDate>Wed, 16 Oct 2024 23:44:57 +0800</pubDate>
+      
+      <guid>/tags/pengenalan-python/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
