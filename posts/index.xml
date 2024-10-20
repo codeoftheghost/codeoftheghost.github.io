@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ReturnVoid</title>
-    <link>/posts/</link>
+    <link>https://codeoftheghost.github.io/posts/</link>
     <description>Recent content in Posts on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Dasar</title>
-      <link>/posts/python-dasar/</link>
+      <link>https://codeoftheghost.github.io/posts/python-dasar/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/posts/python-dasar/</guid>
+      <guid>https://codeoftheghost.github.io/posts/python-dasar/</guid>
       <description>Python Dasar </description>
       <content>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
 </content>

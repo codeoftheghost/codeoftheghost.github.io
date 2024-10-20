@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ReturnVoid</title>
-    <link>/tags/</link>
+    <link>https://codeoftheghost.github.io/tags/</link>
     <description>Recent content in Tags on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bahasa-pemrograman</title>
-      <link>/tags/bahasa-pemrograman/</link>
+      <link>https://codeoftheghost.github.io/tags/bahasa-pemrograman/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/tags/bahasa-pemrograman/</guid>
+      <guid>https://codeoftheghost.github.io/tags/bahasa-pemrograman/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>bahasa-pemrograman-python</title>
-      <link>/tags/bahasa-pemrograman-python/</link>
+      <link>https://codeoftheghost.github.io/tags/bahasa-pemrograman-python/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/tags/bahasa-pemrograman-python/</guid>
+      <guid>https://codeoftheghost.github.io/tags/bahasa-pemrograman-python/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>pemrograman</title>
-      <link>/tags/pemrograman/</link>
+      <link>https://codeoftheghost.github.io/tags/pemrograman/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/tags/pemrograman/</guid>
+      <guid>https://codeoftheghost.github.io/tags/pemrograman/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>https://codeoftheghost.github.io/tags/python/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://codeoftheghost.github.io/tags/python/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>pengenalan-python</title>
-      <link>/tags/pengenalan-python/</link>
+      <link>https://codeoftheghost.github.io/tags/pengenalan-python/</link>
       <pubDate>Wed, 16 Oct 2024 23:44:57 +0800</pubDate>
       
-      <guid>/tags/pengenalan-python/</guid>
+      <guid>https://codeoftheghost.github.io/tags/pengenalan-python/</guid>
       <description></description>
       <content></content>
     </item>

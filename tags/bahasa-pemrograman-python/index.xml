@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bahasa-pemrograman-python on ReturnVoid</title>
-    <link>/tags/bahasa-pemrograman-python/</link>
+    <link>https://codeoftheghost.github.io/tags/bahasa-pemrograman-python/</link>
     <description>Recent content in bahasa-pemrograman-python on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="/tags/bahasa-pemrograman-python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/tags/bahasa-pemrograman-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Dasar</title>
-      <link>/posts/python-dasar/</link>
+      <link>https://codeoftheghost.github.io/posts/python-dasar/</link>
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
-      <guid>/posts/python-dasar/</guid>
+      <guid>https://codeoftheghost.github.io/posts/python-dasar/</guid>
       <description>Python Dasar </description>
       <content>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
 </content>
@@ -20,17 +20,17 @@
     
     <item>
       <title>Pengenalan Python</title>
-      <link>/python/pengenalan-python/</link>
+      <link>https://codeoftheghost.github.io/python/pengenalan-python/</link>
       <pubDate>Wed, 16 Oct 2024 23:44:57 +0800</pubDate>
       
-      <guid>/python/pengenalan-python/</guid>
+      <guid>https://codeoftheghost.github.io/python/pengenalan-python/</guid>
       <description>Pengenalan python Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.</description>
       <content>&lt;h1 id=&#34;pengenalan-python&#34;&gt;Pengenalan python&lt;/h1&gt;
 &lt;p&gt;Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.&lt;/p&gt;
 &lt;p&gt;Bahasa pemrograman python ini juga dapat kita gunakan secara bebas, gratis, dan dapat kita modifikasi serta menyebarluaskan hasil modifikasi yang dibuat. Ini karena, python bersifat open source (sumber terbuka) dan dirilis dengan lisensi Python Software Foundation License (PSFL)&lt;/p&gt;
 
   &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;/images/python/python-logo.png&#34;  alt=&#34;Python Logo&#34;   /&gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-logo.png&#34;  alt=&#34;Python Logo&#34;   /&gt;
     
       &lt;figcaption class=&#34;center&#34; &gt;Logo Python&lt;/figcaption&gt;
     
@@ -42,7 +42,7 @@
 &lt;p&gt;Nama python sendiri terinspirasi dari kelompok komedi Inggris &amp;ldquo;Monty Python&amp;rsquo;s Flying Circus&amp;rdquo;, yang sangat disukai oleh Guido Van Rossum. Karena itu, dokumentasi dan contoh kode python sering kali memiliki unsur humor.&lt;/p&gt;
 
   &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;/images/python/guido-van-rossum.png&#34;  alt=&#34;Guido Van Rossum&#34;   /&gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/guido-van-rossum.png&#34;  alt=&#34;Guido Van Rossum&#34;   /&gt;
     
       &lt;figcaption class=&#34;center&#34; &gt;Guido Van Rossum&lt;/figcaption&gt;
     
@@ -170,7 +170,7 @@
 &lt;p&gt;Python terus dikembangkan dengan versi terbaru yang dirilis secara berkala. Bahasa pemrograman ini semakin populer dan diperkirakan akan tetap relevan di masa mendatang, terutama di bidang seperti data science, AI, dan automasi.&lt;/p&gt;
 
   &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;/images/python/python-tiobe-index.png&#34;  alt=&#34;peringkat python di TIOBE Programming Community index 2024&#34;   /&gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-tiobe-index.png&#34;  alt=&#34;peringkat python di TIOBE Programming Community index 2024&#34;   /&gt;
     
       &lt;figcaption class=&#34;center&#34; &gt;Peringkat python di TIOBE Programming Community index 2024&lt;/figcaption&gt;
     
