@@ -6,7 +6,180 @@
     <description>Recent content in bahasa-pemrograman on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 16 Oct 2024 23:45:45 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/tags/bahasa-pemrograman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 21:16:17 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/tags/bahasa-pemrograman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persiapan Memulai Pemrograman Python</title>
+      <link>https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/</link>
+      <pubDate>Sun, 20 Oct 2024 21:16:17 +0800</pubDate>
+      
+      <guid>https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/</guid>
+      <description>Persiapan Memulai Pemrograman Python Sebelum mulai melakukan pemrograman dengan bahasa python, kita perlu untuk menginstall beberapa perangkat lunak atau software. Perangkat lunak ini akan digunakan selama kita menulis kode program python dan menjalankannya. Berikut beberapa perangkat lunak yang harus kita pasang:
+Kode Editor Kode editor adalah perangkat lunak yang dirancang untuk menulis, mengedit, dan mengelola kode program dalam berbagai bahasa pemrograman, termaksud python. Perangkat lunak ini dapat membantu mempermudah kita untuk menulis kode program dengan berbagai fitur-fitur yang disematkan didalamnya seperti, penyorotan sintaks, indentasi otomatis, pemeriksaan kesalahan penulisan, dan lain-lain.</description>
+      <content>&lt;h1 id=&#34;persiapan-memulai-pemrograman-python&#34;&gt;Persiapan Memulai Pemrograman Python&lt;/h1&gt;
+&lt;p&gt;Sebelum mulai melakukan pemrograman dengan bahasa python, kita perlu untuk menginstall beberapa perangkat lunak atau software. Perangkat lunak ini akan digunakan selama kita menulis kode program python dan menjalankannya. Berikut beberapa perangkat lunak yang harus kita pasang:&lt;/p&gt;
+&lt;h2 id=&#34;kode-editor&#34;&gt;Kode Editor&lt;/h2&gt;
+&lt;p&gt;Kode editor adalah perangkat lunak yang dirancang untuk menulis, mengedit, dan mengelola kode program dalam berbagai bahasa pemrograman, termaksud python. Perangkat lunak ini dapat membantu mempermudah kita untuk menulis kode program dengan berbagai fitur-fitur yang disematkan didalamnya seperti, penyorotan sintaks, indentasi otomatis, pemeriksaan kesalahan penulisan, dan lain-lain.&lt;/p&gt;
+&lt;p&gt;Ada berbagai kode editor yang dapat kita gunakan, diantaranya yang paling banyak digunakan ialah Visual Studio Code atau sering disingkat VSCode, Zed, Sublime Text, Atom, dan masih banyak lagi. Pada catatan ini saya menggunakan VSCode, tetapi jangan khawatir jika kalian ingin menggunakan kode editor yang lain. Karena kalian tetap bisa mengikuti catatan ini dengan menggunakan kode editor lain tanpa ada masalah.&lt;/p&gt;
+&lt;h3 id=&#34;menginstall-kode-editor-vscode&#34;&gt;Menginstall Kode Editor VSCode&lt;/h3&gt;
+&lt;p&gt;Pada distribusi linux, kita bisa menginstall VSCode menggunakan dua cara. Cara pertama ialah menggunakan &lt;mark&gt;Package Manager&lt;/mark&gt; bawaan dari distribusi linux yang kita gunakan. Cara ini adalah yang paling gampang menurut saya. Silahkan buka terminal, kemudian ketikkan perintah dibawah ini lalu tekan &lt;kbd&gt;Enter&lt;/kbd&gt;:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;829436571&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;829436571&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+echo -e &amp;#34;[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc&amp;#34; | sudo tee /etc/yum.repos.d/vscode.repo &amp;gt; /dev/null
+
+sudo dnf update
+
+sudo dnf install code
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;936472815&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;936472815&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+sudo apt-get install wget gpg
+
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor &amp;gt; packages.microsoft.gpg
+
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+
+echo &amp;#34;deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main&amp;#34; |sudo tee /etc/apt/sources.list.d/vscode.list &amp;gt; /dev/null
+
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https
+
+sudo apt update
+
+sudo apt install code
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Perintah diatas menggunakan &lt;mark&gt;sudo&lt;/mark&gt;, yang berarti kemungkinan besar kalian akan diminta untuk memberikan password. Silahkan isikan password kalian, kemudian tekan &lt;kbd&gt;Enter&lt;/kbd&gt; lagi.&lt;/p&gt;
+&lt;p&gt;Jika kalian menggunakan distribusi selain dari distribusi yang sudah saya sebutkan diatas, silahkan dibaca dokumentasi resmi VSCode pada bagian instalasi di halaman &lt;a href=&#34;https://code.visualstudio.com/docs/setup/linux&#34;&gt;code.visualstudio.com/docs/setup/linux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cara kedua ialah dengan mengunduh file binary installer VSCode dari halaman berikut, &lt;a href=&#34;https://code.visualstudio.com/Download&#34;&gt;code.visualstudio.com/Download&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/vscode/vscode-download-page.png&#34;  alt=&#34;Halaman unduhan VSCode&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Halaman unduhan VSCode&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Dibagian linux, silahkan pilih yang sesuai dengan format package &lt;mark&gt;.deb&lt;/mark&gt; atau &lt;mark&gt;.rpm&lt;/mark&gt; distribusi kalian, dan arsitektur perangkat kalian &lt;mark&gt;x64&lt;/mark&gt;, &lt;mark&gt;Arm32&lt;/mark&gt;, atau &lt;mark&gt;Arm64&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Jika proses download file binary installer VSCode telah selesai, silahkan double klik kiri pada file tersebut untuk menjalankan proses instalasinya. Kita akan diminta untuk memasukkan password, silahkan masukkan kemudian tekan &lt;kbd&gt;Enter&lt;/kbd&gt;. Proses instalasi selesai ditandai dengan file VSCode yang akan muncul di menu aplikasi, atau shortcut di desktop kita.&lt;/p&gt;
+&lt;p&gt;Untuk kalian yang menggunakan sistem operasi lain seperti Windows atau macOS, silahkan baca dokumentasi resminya di &lt;a href=&#34;https://code.visualstudio.com/docs/setup/windows&#34;&gt;code.visualstudio.com/docs/setup/windows&lt;/a&gt; untuk Windows, dan &lt;a href=&#34;https://code.visualstudio.com/docs/setup/mac&#34;&gt;code.visualstudio.com/docs/setup/mac&lt;/a&gt; untuk macOS. Saya terlalu malas untuk menuliskan panduannya, mungkin akan saya tulis jika sudah tidak ada hal lain yang harus saya kerjakan dalam hidup saya &amp;#x1f605;.&lt;/p&gt;
+&lt;h2 id=&#34;interpreter-python&#34;&gt;Interpreter Python&lt;/h2&gt;
+&lt;p&gt;Tidak seperti bahasa pemrograman yang dikompilasi seperti C/C++, Java, Go, dan lain-lain, dimana kode program yang kita tulis, akan langsung diterjemahkan menjadi instruksi mesin sekali saat proses kompilasi, dan menghasilkan file binary yang siap dijalankan. Di python, kita membutuhkan perangkat lunak interpreter untuk menjalankan kode program yang kita tulis. Interpreter ini akan menerjemahkan kode program kita menjadi instruksi mesin, dan mengeksekusinya secara langusng, baris demi baris.&lt;/p&gt;
+&lt;p&gt;Pada distribusi linux, umumnya interpreter python sudah terinstall secara default. Jadi kita tidak perlu lagi menginstall-nya. Untuk memastikan apakah interpreter python sudah terinstall pada distribusi yang kita gunakan, bisa dengan mengetikkan perintah dibawah ini pada terminal kita:
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;916487253&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;916487253&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+python --version
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Perintah diatas sebenarnya berguna untuk mengecek versi dari interpreter python yang terinstall. Jika interpreter python sudah terinstall, maka akan ada output berupa versi yang terpasang seperti dibawah ini:
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;945831267&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;945831267&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+Python 3.12.7
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Output diatas menunjukkan bahwa python terinstall dengan versi &lt;mark&gt;Python 3.12.7&lt;/mark&gt;. Jika output berupa pesan error atau sejenisnya seperti dibawah ini kemudian tekan &lt;kbd&gt;Enter&lt;/kbd&gt;:
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;612378594&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;612378594&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+bash: python: command not found...
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Ini berarti interpreter python belum terinstall. Kita bisa menginstallnya dengan cara membuka terminal, kemudian ketikkan perintah dibawah ini:
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;361742598&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;361742598&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+sudo dnf install python
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;842659317&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;842659317&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+sudo apt update &amp;amp;&amp;amp; sudo apt install python3 -y
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Perintah diatas menggunakan &lt;mark&gt;sudo&lt;/mark&gt;, yang berarti kemungkinan besar kalian akan diminta untuk memberikan password. Silahkan isikan password kalian, kemudian tekan &lt;kbd&gt;Enter&lt;/kbd&gt; lagi.&lt;/p&gt;
+&lt;p&gt;Jika kalian menggunakan distribusi linux selain dari contoh diatas, silahkan sesuaikan dengan perintah penginstall-an dari package manager yang digunakan.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Python Dasar</title>
       <link>https://codeoftheghost.github.io/posts/python-dasar/</link>
@@ -23,7 +196,7 @@ Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konse
 &lt;h2 id=&#34;pengantar-python&#34;&gt;Pengantar Python&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/pengenalan-python/&#34;&gt;0x0 Pengenalan Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/&#34;&gt;0x1 Persiapan Memulai Pemrograman dengan Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/&#34;&gt;0x1 Persiapan Memulai Pemrograman dengan Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/&#34;&gt;0x2 Membuat dan Menjalankan Kode Program Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -188,7 +361,7 @@ Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konse
   &lt;/figure&gt;
 
 
-&lt;p&gt;Python menempati peringkat satu sebagai bahasa pemrograman terpopuler menurut TIOBE Programming Community Index. Tentu jika kita ingin berkarir sebagai seorang programmer, menguasai bahasa ini merupakan salah satu investasi besar untuk kedepannya.&lt;/p&gt;
+&lt;p&gt;Python menempati peringkat satu sebagai bahasa pemrograman terpopuler menurut TIOBE Programming Community Index 2024. Tentu jika kita ingin berkarir sebagai seorang programmer, menguasai bahasa ini merupakan salah satu investasi besar untuk kedepannya.&lt;/p&gt;
 </content>
     </item>
     
