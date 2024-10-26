@@ -170,12 +170,14 @@
       <ul>
         <li><a href="#kode-editor">Kode Editor</a>
           <ul>
-            <li><a href="#menginstall-kode-editor-vscode">Menginstall Kode Editor VSCode</a></li>
+            <li><a href="#menginstall-kode-editor-vscode-di-linux">Menginstall Kode Editor VSCode di Linux</a></li>
+            <li><a href="#menginstall-kode-editor-vscode-di-windows">Menginstall Kode Editor VSCode di Windows</a></li>
           </ul>
         </li>
         <li><a href="#interpreter-python">Interpreter Python</a>
           <ul>
-            <li><a href="#menginstall-interpreter-python">Menginstall Interpreter Python</a></li>
+            <li><a href="#menginstall-interpreter-python-di-linux">Menginstall Interpreter Python di Linux</a></li>
+            <li><a href="#menginstall-interpreter-python-di-windows">Menginstall Interpreter Python di Windows</a></li>
           </ul>
         </li>
       </ul>
@@ -191,14 +193,14 @@
 <h2 id="kode-editor">Kode Editor<a href="#kode-editor" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Kode editor adalah perangkat lunak yang dirancang untuk menulis, mengedit, dan mengelola kode program dalam berbagai bahasa pemrograman, termaksud python. Perangkat lunak ini dapat membantu mempermudah kita untuk menulis kode program dengan berbagai fitur-fitur yang disematkan didalamnya seperti, penyorotan sintaks, indentasi otomatis, pemeriksaan kesalahan penulisan, dan lain-lain.</p>
 <p>Ada berbagai kode editor yang dapat kita gunakan, diantaranya yang paling banyak digunakan ialah Visual Studio Code atau sering disingkat VSCode, Zed, Sublime Text, Atom, dan masih banyak lagi. Pada catatan ini saya menggunakan VSCode, tetapi jangan khawatir jika kalian ingin menggunakan kode editor yang lain. Karena kalian tetap bisa mengikuti catatan ini dengan menggunakan kode editor lain tanpa ada masalah.</p>
-<h3 id="menginstall-kode-editor-vscode">Menginstall Kode Editor VSCode<a href="#menginstall-kode-editor-vscode" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="menginstall-kode-editor-vscode-di-linux">Menginstall Kode Editor VSCode di Linux<a href="#menginstall-kode-editor-vscode-di-linux" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Pada distribusi linux, kita bisa menginstall VSCode menggunakan dua cara. Cara pertama ialah menggunakan <mark>Package Manager</mark> bawaan dari distribusi linux yang kita gunakan. Cara ini adalah yang paling gampang menurut saya. Silahkan buka terminal, kemudian ketikkan perintah dibawah ini lalu tekan <kbd>Enter</kbd>:</p>
 
 
 
   <div class="collapsable-code">
-    <input id="147862953" type="checkbox"  />
-    <label for="147862953">
+    <input id="621457938" type="checkbox"  />
+    <label for="621457938">
       <span class="collapsable-code__language">sh</span>
       <span class="collapsable-code__title">Distribusi RedHat, Fedora, dan turunannya</span>
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -219,8 +221,8 @@ sudo dnf install code
 
 
   <div class="collapsable-code">
-    <input id="152367489" type="checkbox"  />
-    <label for="152367489">
+    <input id="657139248" type="checkbox"  />
+    <label for="657139248">
       <span class="collapsable-code__language">sh</span>
       <span class="collapsable-code__title">Distribusi Debian, Ubuntu, dan turunannya</span>
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -259,17 +261,18 @@ sudo apt install code
 
 <p>Dibagian linux, silahkan pilih yang sesuai dengan format package <mark>.deb</mark> atau <mark>.rpm</mark> distribusi kalian, dan arsitektur perangkat kalian <mark>x64</mark>, <mark>Arm32</mark>, atau <mark>Arm64</mark>.</p>
 <p>Jika proses download file binary installer VSCode telah selesai, silahkan double klik kiri pada file tersebut untuk menjalankan proses instalasinya. Kita akan diminta untuk memasukkan password, silahkan masukkan kemudian tekan <kbd>Enter</kbd>. Proses instalasi selesai ditandai dengan file VSCode yang akan muncul di menu aplikasi, atau shortcut di desktop kita.</p>
-<p>Untuk kalian yang menggunakan sistem operasi lain seperti Windows atau macOS, silahkan baca dokumentasi resminya di <a href="https://code.visualstudio.com/docs/setup/windows">code.visualstudio.com/docs/setup/windows</a> untuk Windows, dan <a href="https://code.visualstudio.com/docs/setup/mac">code.visualstudio.com/docs/setup/mac</a> untuk macOS. Saya terlalu malas untuk menuliskan panduannya, mungkin akan saya tulis jika sudah tidak ada hal lain yang harus saya kerjakan dalam hidup saya &#x1f605;.</p>
+<h3 id="menginstall-kode-editor-vscode-di-windows">Menginstall Kode Editor VSCode di Windows<a href="#menginstall-kode-editor-vscode-di-windows" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Untuk kalian yang menggunakan sistem operasi Windows, silahkan baca dokumentasi resminya di <a href="https://code.visualstudio.com/docs/setup/windows">code.visualstudio.com/docs/setup/windows</a>. Saya terlalu malas untuk menuliskan panduannya, mungkin akan saya tulis jika sudah tidak ada hal lain yang harus saya kerjakan dalam hidup saya &#x1f605;.</p>
 <h2 id="interpreter-python">Interpreter Python<a href="#interpreter-python" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Tidak seperti bahasa pemrograman yang dikompilasi seperti C/C++, Java, Go, dan lain-lain, dimana kode program yang kita tulis, akan langsung diterjemahkan menjadi instruksi mesin sekali saat proses kompilasi, dan menghasilkan file binary yang siap dijalankan. Di python, kita membutuhkan perangkat lunak interpreter untuk menjalankan kode program yang kita tulis. Interpreter ini akan menerjemahkan kode program kita menjadi instruksi mesin, dan mengeksekusinya secara langusng, baris demi baris.</p>
-<h3 id="menginstall-interpreter-python">Menginstall Interpreter Python<a href="#menginstall-interpreter-python" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="menginstall-interpreter-python-di-linux">Menginstall Interpreter Python di Linux<a href="#menginstall-interpreter-python-di-linux" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Pada distribusi linux, umumnya interpreter python sudah terinstall secara default. Jadi kita tidak perlu lagi menginstall-nya. Untuk memastikan apakah interpreter python sudah terinstall pada distribusi yang kita gunakan, bisa dengan mengetikkan perintah dibawah ini pada terminal kita:
 
 
 
   <div class="collapsable-code">
-    <input id="583267419" type="checkbox"  />
-    <label for="583267419">
+    <input id="643982751" type="checkbox"  />
+    <label for="643982751">
       <span class="collapsable-code__language">sh</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -285,8 +288,8 @@ python --version
 
 
   <div class="collapsable-code">
-    <input id="842561379" type="checkbox"  />
-    <label for="842561379">
+    <input id="367814295" type="checkbox"  />
+    <label for="367814295">
       <span class="collapsable-code__language">sh</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -302,8 +305,8 @@ Python 3.12.7
 
 
   <div class="collapsable-code">
-    <input id="425869731" type="checkbox"  />
-    <label for="425869731">
+    <input id="317645892" type="checkbox"  />
+    <label for="317645892">
       <span class="collapsable-code__language">sh</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -319,8 +322,8 @@ bash: python: command not found...
 
 
   <div class="collapsable-code">
-    <input id="874215693" type="checkbox"  />
-    <label for="874215693">
+    <input id="237184695" type="checkbox"  />
+    <label for="237184695">
       <span class="collapsable-code__language">sh</span>
       <span class="collapsable-code__title">Distribusi RedHat, Fedora, dan turunannya</span>
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -335,8 +338,8 @@ sudo dnf install python
 
 
   <div class="collapsable-code">
-    <input id="596324871" type="checkbox"  />
-    <label for="596324871">
+    <input id="825419673" type="checkbox"  />
+    <label for="825419673">
       <span class="collapsable-code__language">sh</span>
       <span class="collapsable-code__title">Distribusi Debian, Ubuntu, dan turunannya</span>
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -349,6 +352,8 @@ sudo apt update &amp;&amp; sudo apt install python3 -y
 
 <p>Perintah diatas menggunakan <mark>sudo</mark>, yang berarti kemungkinan besar kalian akan diminta untuk memberikan password. Silahkan isikan password kalian, kemudian tekan <kbd>Enter</kbd> lagi.</p>
 <p>Jika kalian menggunakan distribusi linux selain dari contoh diatas, silahkan sesuaikan dengan perintah penginstall-an dari package manager yang digunakan.</p>
+<h3 id="menginstall-interpreter-python-di-windows">Menginstall Interpreter Python di Windows<a href="#menginstall-interpreter-python-di-windows" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Untuk kalian yang menggunakan sistem operasi lain seperti Windows, silahkan baca download file binary installer-nya interpreter python di <a href="https://www.python.org/downloads/release/python-3130/">python.org/downloads/release/python-3130/</a>. Untuk proses installnya, silahkan lihat dari sumber lain saja. Saya terlalu malas untuk menuliskan panduannya, mungkin akan saya tulis jika sudah tidak ada hal lain yang harus saya kerjakan dalam hidup saya &#x1f605;.</p>
 
       </div></div>
 
