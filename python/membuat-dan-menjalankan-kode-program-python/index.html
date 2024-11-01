@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Membuat dan Menjalankan Kode Program Python :: ReturnVoid</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Membuat dan menjalankan kode program yang ditulis dengan bahasa pemrograman python." />
+<meta name="keywords" content="python, pemrograman, pengenalan" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/terminal.min.206c71eeb5efd24180a2a1080a3a6aeabe635de8746e6f4febcec2701c231753.css">
+
+  
+  <link rel="stylesheet" type="text/css" href="https://codeoftheghost.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://codeoftheghost.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://codeoftheghost.github.io/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="x.com/codeofghost" />
+  
+    <meta name="twitter:creator" content="codeofghost" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Membuat dan Menjalankan Kode Program Python">
+<meta property="og:description" content="Membuat dan menjalankan kode program yang ditulis dengan bahasa pemrograman python." />
+<meta property="og:url" content="https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/" />
+<meta property="og:site_name" content="ReturnVoid" />
+
+  
+  
+  <meta property="og:image" content="https://codeoftheghost.github.io/images/python/cover.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-10-31 23:14:07 &#43;0800 WITA" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://codeoftheghost.github.io/">
+  <div class="logo">
+    ReturnVoid:/
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/">Membuat dan Menjalankan Kode Program Python</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-10-31</time><span class="post-author">Ghost</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://codeoftheghost.github.io/tags/python/">python</a>&nbsp;
+      
+      #<a href="https://codeoftheghost.github.io/tags/pengenalan-python/">pengenalan-python</a>&nbsp;
+      
+      #<a href="https://codeoftheghost.github.io/tags/pemrograman/">pemrograman</a>&nbsp;
+      
+      #<a href="https://codeoftheghost.github.io/tags/bahasa-pemrograman/">bahasa-pemrograman</a>&nbsp;
+      
+      #<a href="https://codeoftheghost.github.io/tags/bahasa-pemrograman-python/">bahasa-pemrograman-python</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="https://codeoftheghost.github.io/images/python/cover.png"
+    class="post-cover"
+    alt="Membuat dan Menjalankan Kode Program Python"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#membuat-dan-menjalanakan-kode-program-python">Membuat dan Menjalanakan Kode Program Python</a>
+      <ul>
+        <li><a href="#interpreter-interaktif">Interpreter Interaktif</a></li>
+        <li><a href="#python-script">Python Script</a>
+          <ul>
+            <li><a href="#kelebihan-metode-python-script">Kelebihan Metode Python Script</a></li>
+            <li><a href="#kekurangan-metode-python-script">Kekurangan Metode Python Script</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="membuat-dan-menjalanakan-kode-program-python">Membuat dan Menjalanakan Kode Program Python<a href="#membuat-dan-menjalanakan-kode-program-python" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Terdapat berbagai cara atau metode untuk menjalankan kode program python yang kita tulis. Diantaranya yang paling umum digunakan ialah menggunakan metode <mark>Interpreter Interaktif</mark> dan <mark>Python Script</mark>. Kedua metode ini, masing-masing memiliki kelebihan dan kekuranganya masing-masing. Berikut penjelasan dari kedua metode tersebut.</p>
+<h2 id="interpreter-interaktif">Interpreter Interaktif<a href="#interpreter-interaktif" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Interperet Interaktif atau ini dikenal juga dengan sebutan <mark>REPL (Read-Eval-Print-Loop)</mark> adalah metode untuk menjalankan program python, dimana kita menggunakan interpreter python dengan mode interaktif. Pada mode interaktif ini, kita dapat menulis dan menjalankan kode program python secara langsung, baris per-baris, dan melihat langsung hasilnya saat kita menekan tombol <kbd>Enter</kbd>.</p>
+<p>Untuk mulai menggunakan metode ini, kita cukup membuat terminal dan menjalankan perintah <mark>python</mark> seperti contoh berikut:</p>
+
+  <figure class="center" >
+    <img src="/images/python/python-interpreter-interaktif.png"  alt="Interpreter Interaktif Python"   />
+    
+      <figcaption class="center" >Interpreter Interaktif Python</figcaption>
+    
+  </figure>
+
+
+<p>Atau jika distribusi linux yang kalian gunakan masih menyertakan versi Python2 atau tidak menjadikan versi Python3 sebagai default, maka jalankan perintah <mark>python3<mark> seperti contoh dibawah ini:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="371459826" type="checkbox"  />
+    <label for="371459826">
+      <span class="collapsable-code__language">sh</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-sh" ><code>
+python
+</code></pre>
+  </div>
+
+
+<p>Pada gambar diatas saat kita menjalankan perintah python, interpreter python akan dijalankan dengan mode interaktif. Kemudian muncul teks berupa versi python yang digunakan berserta informasi lainnya dan juga simbol <mark>&gt;&gt;&gt;</mark> yang disebut dengan <strong>prompt</strong>. Simbol prompt ini menunjukkan bahwa interpreter python siap menerima input/masukan berupa kode program python dari pengguna. Contoh saya akan memasukkan kode program <mark>print(&ldquo;Hello World!&rdquo;)</mark>, saat saya menekan <kbd>Enter</kbd>, interpreter python akan langsung menjalankan kode program yang saya masukkan dan akan langsung menampilkan hasilnya berupa teks <mark>Hello World!</mark>.</p>
+
+  <figure class="center" >
+    <img src="/images/python/hello-world-on-interpreter-interactive.png"  alt="Menjalankan Kode Program di Interpreter Interaktif"   />
+    
+      <figcaption class="center" >Menjalankan Kode Program di Interpreter Interaktif</figcaption>
+    
+  </figure>
+
+
+<p>Perhatikan hasil yang ditampilkan pada gambar diatas, tidak terdapat simbol <mark>&gt;&gt;&gt;</mark>. Ini cara interpreter interaktif python memberitahukan kepada pengguna, mana perintah yang diinput/dimasukkan pengguna, dan mana hasil yang ditampilkan.</p>
+<p>Untuk keluar dari interpreter interaktif ini, terdapat beberapa cara. Namun cara yang paling mudah ialah, kita bisa menggunakan kombinasi <kbd>CTRL</kbd> + <kbd>D</kbd> di keyboard.</p>
+<h2 id="python-script">Python Script<a href="#python-script" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi <mark>.py</mark>.</p>
+<p>Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama <mark>hello_word.py</mark>.</p>
+
+  <figure class="center" >
+    <img src="/images/python/python-source-code-file.png"  alt="File Kode Sumber Python"   />
+    
+      <figcaption class="center" >File Kode Sumber Python</figcaption>
+    
+  </figure>
+
+
+<p>Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi <mark>.py</mark>. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).</p>
+<p>Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="296481537" type="checkbox"  />
+    <label for="296481537">
+      <span class="collapsable-code__language">py</span>
+      <span class="collapsable-code__title">hello_world.py</span>
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-py" ><code>
+print(&#34;Hello World!&#34;)
+</code></pre>
+  </div>
+
+
+<p>Simpan file tersebut, bisa dengan menggunakan shortcut <kbd>ctrl</kbd> + <kbd>S</kbd>. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori <em>&ldquo;Ghost/python-cheat-sheet/basic/hello_world/&rdquo;</em>.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="237496158" type="checkbox"  />
+    <label for="237496158">
+      <span class="collapsable-code__language">sh</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-sh" ><code>
+cd Ghost/python-cheat-sheet/basic/hello_world/
+</code></pre>
+  </div>
+
+
+<p>Kemudian jalankan file kode sumber tersebut dengan perintah <mark> python &lt;nama-file-kode-sumber.py&gt;</mark>, seperti contoh dibawah ini:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="273456918" type="checkbox"  />
+    <label for="273456918">
+      <span class="collapsable-code__language">sh</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-sh" ><code>
+python hello_world.py
+</code></pre>
+  </div>
+
+
+<p>Setelah kita menekan <kbd>Enter</kbd>, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber <mark>hello_world.py</mark>, dan pada terminal akan tampil teks &ldquo;Hello World!&rdquo;.</p>
+
+  <figure class="center" >
+    <img src="/images/python/run-hello-world-python.png"  alt="Menjalankan Kode Program Python"   />
+    
+      <figcaption class="center" >Menjalankan Kode Program Python</figcaption>
+    
+  </figure>
+
+
+<h3 id="kelebihan-metode-python-script">Kelebihan Metode Python Script<a href="#kelebihan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:</p>
+<ul>
+<li>
+<p>Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.</p>
+</li>
+<li>
+<p>Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.</p>
+</li>
+</ul>
+<h3 id="kekurangan-metode-python-script">Kekurangan Metode Python Script<a href="#kekurangan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:</p>
+<ul>
+<li>
+<p>Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.</p>
+</li>
+<li>
+<p>Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.</p>
+</li>
+</ul>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        
+        <span>© 2024 - ghost</span>
+    
+      <span>:: <a href="https://github.com/codeoftheghost" target="_blank">github.com/codeoftheghost</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

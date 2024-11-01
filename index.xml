@@ -6,15 +6,167 @@
     <description>Recent content on ReturnVoid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Sun, 20 Oct 2024 21:16:17 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Oct 2024 23:14:07 +0800</lastBuildDate><atom:link href="https://codeoftheghost.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat dan Menjalankan Kode Program Python</title>
+      <link>https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/</link>
+      <pubDate>Thu, 31 Oct 2024 23:14:07 +0800</pubDate>
+      
+      <guid>https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/</guid>
+      <description>&lt;h1 id=&#34;membuat-dan-menjalanakan-kode-program-python&#34;&gt;Membuat dan Menjalanakan Kode Program Python&lt;/h1&gt;
+&lt;p&gt;Terdapat berbagai cara atau metode untuk menjalankan kode program python yang kita tulis. Diantaranya yang paling umum digunakan ialah menggunakan metode &lt;mark&gt;Interpreter Interaktif&lt;/mark&gt; dan &lt;mark&gt;Python Script&lt;/mark&gt;. Kedua metode ini, masing-masing memiliki kelebihan dan kekuranganya masing-masing. Berikut penjelasan dari kedua metode tersebut.&lt;/p&gt;
+&lt;h2 id=&#34;interpreter-interaktif&#34;&gt;Interpreter Interaktif&lt;/h2&gt;
+&lt;p&gt;Interperet Interaktif atau ini dikenal juga dengan sebutan &lt;mark&gt;REPL (Read-Eval-Print-Loop)&lt;/mark&gt; adalah metode untuk menjalankan program python, dimana kita menggunakan interpreter python dengan mode interaktif. Pada mode interaktif ini, kita dapat menulis dan menjalankan kode program python secara langsung, baris per-baris, dan melihat langsung hasilnya saat kita menekan tombol &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;membuat-dan-menjalanakan-kode-program-python&#34;&gt;Membuat dan Menjalanakan Kode Program Python&lt;/h1&gt;
+&lt;p&gt;Terdapat berbagai cara atau metode untuk menjalankan kode program python yang kita tulis. Diantaranya yang paling umum digunakan ialah menggunakan metode &lt;mark&gt;Interpreter Interaktif&lt;/mark&gt; dan &lt;mark&gt;Python Script&lt;/mark&gt;. Kedua metode ini, masing-masing memiliki kelebihan dan kekuranganya masing-masing. Berikut penjelasan dari kedua metode tersebut.&lt;/p&gt;
+&lt;h2 id=&#34;interpreter-interaktif&#34;&gt;Interpreter Interaktif&lt;/h2&gt;
+&lt;p&gt;Interperet Interaktif atau ini dikenal juga dengan sebutan &lt;mark&gt;REPL (Read-Eval-Print-Loop)&lt;/mark&gt; adalah metode untuk menjalankan program python, dimana kita menggunakan interpreter python dengan mode interaktif. Pada mode interaktif ini, kita dapat menulis dan menjalankan kode program python secara langsung, baris per-baris, dan melihat langsung hasilnya saat kita menekan tombol &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
+&lt;p&gt;Untuk mulai menggunakan metode ini, kita cukup membuat terminal dan menjalankan perintah &lt;mark&gt;python&lt;/mark&gt; seperti contoh berikut:&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-interpreter-interaktif.png&#34;  alt=&#34;Interpreter Interaktif Python&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Interpreter Interaktif Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Atau jika distribusi linux yang kalian gunakan masih menyertakan versi Python2 atau tidak menjadikan versi Python3 sebagai default, maka jalankan perintah &lt;mark&gt;python3&lt;mark&gt; seperti contoh dibawah ini:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;371459826&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;371459826&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+python
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Pada gambar diatas saat kita menjalankan perintah python, interpreter python akan dijalankan dengan mode interaktif. Kemudian muncul teks berupa versi python yang digunakan berserta informasi lainnya dan juga simbol &lt;mark&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/mark&gt; yang disebut dengan &lt;strong&gt;prompt&lt;/strong&gt;. Simbol prompt ini menunjukkan bahwa interpreter python siap menerima input/masukan berupa kode program python dari pengguna. Contoh saya akan memasukkan kode program &lt;mark&gt;print(&amp;ldquo;Hello World!&amp;rdquo;)&lt;/mark&gt;, saat saya menekan &lt;kbd&gt;Enter&lt;/kbd&gt;, interpreter python akan langsung menjalankan kode program yang saya masukkan dan akan langsung menampilkan hasilnya berupa teks &lt;mark&gt;Hello World!&lt;/mark&gt;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/hello-world-on-interpreter-interactive.png&#34;  alt=&#34;Menjalankan Kode Program di Interpreter Interaktif&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Menjalankan Kode Program di Interpreter Interaktif&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Perhatikan hasil yang ditampilkan pada gambar diatas, tidak terdapat simbol &lt;mark&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/mark&gt;. Ini cara interpreter interaktif python memberitahukan kepada pengguna, mana perintah yang diinput/dimasukkan pengguna, dan mana hasil yang ditampilkan.&lt;/p&gt;
+&lt;p&gt;Untuk keluar dari interpreter interaktif ini, terdapat beberapa cara. Namun cara yang paling mudah ialah, kita bisa menggunakan kombinasi &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt; di keyboard.&lt;/p&gt;
+&lt;h2 id=&#34;python-script&#34;&gt;Python Script&lt;/h2&gt;
+&lt;p&gt;Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi &lt;mark&gt;.py&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama &lt;mark&gt;hello_word.py&lt;/mark&gt;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-source-code-file.png&#34;  alt=&#34;File Kode Sumber Python&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;File Kode Sumber Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi &lt;mark&gt;.py&lt;/mark&gt;. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).&lt;/p&gt;
+&lt;p&gt;Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;296481537&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;296481537&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-py&#34; &gt;&lt;code&gt;
+print(&amp;#34;Hello World!&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Simpan file tersebut, bisa dengan menggunakan shortcut &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori &lt;em&gt;&amp;ldquo;Ghost/python-cheat-sheet/basic/hello_world/&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;237496158&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;237496158&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+cd Ghost/python-cheat-sheet/basic/hello_world/
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Kemudian jalankan file kode sumber tersebut dengan perintah &lt;mark&gt; python &amp;lt;nama-file-kode-sumber.py&amp;gt;&lt;/mark&gt;, seperti contoh dibawah ini:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;273456918&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;273456918&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+python hello_world.py
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Setelah kita menekan &lt;kbd&gt;Enter&lt;/kbd&gt;, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber &lt;mark&gt;hello_world.py&lt;/mark&gt;, dan pada terminal akan tampil teks &amp;ldquo;Hello World!&amp;rdquo;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/run-hello-world-python.png&#34;  alt=&#34;Menjalankan Kode Program Python&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Menjalankan Kode Program Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h3 id=&#34;kelebihan-metode-python-script&#34;&gt;Kelebihan Metode Python Script&lt;/h3&gt;
+&lt;p&gt;Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kekurangan-metode-python-script&#34;&gt;Kekurangan Metode Python Script&lt;/h3&gt;
+&lt;p&gt;Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
     <item>
       <title>Persiapan Memulai Pemrograman Python</title>
       <link>https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/</link>
       <pubDate>Sun, 20 Oct 2024 21:16:17 +0800</pubDate>
       
       <guid>https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/</guid>
-      <description>Persiapan Memulai Pemrograman Python Sebelum mulai melakukan pemrograman dengan bahasa python, kita perlu untuk menginstall beberapa perangkat lunak atau software. Perangkat lunak ini akan digunakan selama kita menulis kode program python dan menjalankannya. Berikut beberapa perangkat lunak yang harus kita pasang:
-Kode Editor Kode editor adalah perangkat lunak yang dirancang untuk menulis, mengedit, dan mengelola kode program dalam berbagai bahasa pemrograman, termaksud python. Perangkat lunak ini dapat membantu mempermudah kita untuk menulis kode program dengan berbagai fitur-fitur yang disematkan didalamnya seperti, penyorotan sintaks, indentasi otomatis, pemeriksaan kesalahan penulisan, dan lain-lain.</description>
+      <description>&lt;h1 id=&#34;persiapan-memulai-pemrograman-python&#34;&gt;Persiapan Memulai Pemrograman Python&lt;/h1&gt;
+&lt;p&gt;Sebelum mulai melakukan pemrograman dengan bahasa python, kita perlu untuk menginstall beberapa perangkat lunak atau software. Perangkat lunak ini akan digunakan selama kita menulis kode program python dan menjalankannya. Berikut beberapa perangkat lunak yang harus kita pasang:&lt;/p&gt;
+&lt;h2 id=&#34;kode-editor&#34;&gt;Kode Editor&lt;/h2&gt;
+&lt;p&gt;Kode editor adalah perangkat lunak yang dirancang untuk menulis, mengedit, dan mengelola kode program dalam berbagai bahasa pemrograman, termaksud python. Perangkat lunak ini dapat membantu mempermudah kita untuk menulis kode program dengan berbagai fitur-fitur yang disematkan didalamnya seperti, penyorotan sintaks, indentasi otomatis, pemeriksaan kesalahan penulisan, dan lain-lain.&lt;/p&gt;</description>
       <content>&lt;h1 id=&#34;persiapan-memulai-pemrograman-python&#34;&gt;Persiapan Memulai Pemrograman Python&lt;/h1&gt;
 &lt;p&gt;Sebelum mulai melakukan pemrograman dengan bahasa python, kita perlu untuk menginstall beberapa perangkat lunak atau software. Perangkat lunak ini akan digunakan selama kita menulis kode program python dan menjalankannya. Berikut beberapa perangkat lunak yang harus kita pasang:&lt;/p&gt;
 &lt;h2 id=&#34;kode-editor&#34;&gt;Kode Editor&lt;/h2&gt;
@@ -26,8 +178,8 @@ Kode Editor Kode editor adalah perangkat lunak yang dirancang untuk menulis, men
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;358194672&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;358194672&#34;&gt;
+    &lt;input id=&#34;871695432&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;871695432&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -48,8 +200,8 @@ sudo dnf install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;179386524&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;179386524&#34;&gt;
+    &lt;input id=&#34;793251648&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;793251648&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -98,8 +250,8 @@ sudo apt install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;526813974&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;526813974&#34;&gt;
+    &lt;input id=&#34;273461589&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;273461589&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -115,8 +267,8 @@ python --version
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;729561348&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;729561348&#34;&gt;
+    &lt;input id=&#34;643725819&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;643725819&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -132,8 +284,8 @@ Python 3.12.7
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;573428691&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;573428691&#34;&gt;
+    &lt;input id=&#34;145267389&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;145267389&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -149,8 +301,8 @@ bash: python: command not found...
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;341769258&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;341769258&#34;&gt;
+    &lt;input id=&#34;843912567&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;843912567&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -165,8 +317,8 @@ sudo dnf install python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;392874516&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;392874516&#34;&gt;
+    &lt;input id=&#34;283764951&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;283764951&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -190,8 +342,10 @@ sudo apt update &amp;amp;&amp;amp; sudo apt install python3 -y
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
       <guid>https://codeoftheghost.github.io/posts/python-dasar/</guid>
-      <description>Python Dasar Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.
-Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konsep-konsep dasar pemrograman. Karena pada catatan ini, saya hanya fokus pada bahasa pemrograman python, dan tidak akan menjelaskan tentang konsep-konsep atau istilah-istilah dasar pemrograman yang ada pada catatan ini.</description>
+      <description>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
+&lt;p&gt;Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konsep-konsep dasar pemrograman. Karena pada catatan ini, saya hanya fokus pada bahasa pemrograman python, dan tidak akan menjelaskan tentang konsep-konsep atau istilah-istilah dasar pemrograman yang ada pada catatan ini.&lt;/p&gt;</description>
       <content>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
 &lt;p&gt;Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -201,7 +355,7 @@ Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konse
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/pengenalan-python/&#34;&gt;0x0 Pengenalan Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/&#34;&gt;0x1 Persiapan Memulai Pemrograman dengan Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/&#34;&gt;0x2 Membuat dan Menjalankan Kode Program Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/&#34;&gt;0x2 Membuat dan Menjalankan Kode Program Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -212,7 +366,8 @@ Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konse
       <pubDate>Wed, 16 Oct 2024 23:44:57 +0800</pubDate>
       
       <guid>https://codeoftheghost.github.io/python/pengenalan-python/</guid>
-      <description>Pengenalan python Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.</description>
+      <description>&lt;h1 id=&#34;pengenalan-python&#34;&gt;Pengenalan python&lt;/h1&gt;
+&lt;p&gt;Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.&lt;/p&gt;</description>
       <content>&lt;h1 id=&#34;pengenalan-python&#34;&gt;Pengenalan python&lt;/h1&gt;
 &lt;p&gt;Python adalah salah satu bahasa pemrogram interpreted, tingkat tinggi, berorientasi objek, dan bersifat general purpose (serbaguna) yang sangat populer dan banyak digunakan oleh programmer diseluruh dunia. Dengan menggunakan bahasa ini, kita dapat membuat berbagai macam jenis aplikasi, dari yang sangat sederhana hingga yang rumit dan kompleks. Sintaks-nya yang sederhana dan mudah dipahami, serta banyaknya pustaka (library) yang dimiliki oleh python, memungkinkan bahasa ini kita gunakan untuk menyelesaikan berbagai macam tugas pemrograman.&lt;/p&gt;
 &lt;p&gt;Bahasa pemrograman python ini juga dapat kita gunakan secara bebas, gratis, dan dapat kita modifikasi serta menyebarluaskan hasil modifikasi yang dibuat. Ini karena, python bersifat open source (sumber terbuka) dan dirilis dengan lisensi Python Software Foundation License (PSFL)&lt;/p&gt;

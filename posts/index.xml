@@ -13,8 +13,10 @@
       <pubDate>Wed, 16 Oct 2024 23:45:45 +0800</pubDate>
       
       <guid>https://codeoftheghost.github.io/posts/python-dasar/</guid>
-      <description>Python Dasar Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.
-Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konsep-konsep dasar pemrograman. Karena pada catatan ini, saya hanya fokus pada bahasa pemrograman python, dan tidak akan menjelaskan tentang konsep-konsep atau istilah-istilah dasar pemrograman yang ada pada catatan ini.</description>
+      <description>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
+&lt;p&gt;Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konsep-konsep dasar pemrograman. Karena pada catatan ini, saya hanya fokus pada bahasa pemrograman python, dan tidak akan menjelaskan tentang konsep-konsep atau istilah-istilah dasar pemrograman yang ada pada catatan ini.&lt;/p&gt;</description>
       <content>&lt;h1 id=&#34;python-dasar&#34;&gt;Python Dasar&lt;/h1&gt;
 &lt;p&gt;Ini adalah catatan tentang belajar bahasa pemrograman Python, mencakup penjelasan dan penggunaan perintah-perintah dasar python. Catatan ini saya bagi menjadi beberapa bagian, dan diakhir setiap bagian (kecuali pengatar) akan ada contoh program yang mencakup semua yang telah dipelajari. jadi, jika kalian menggunakan catatan ini sebagai bahan belajar, harap ikuti secara berurutan untuk menghidari kebingungan.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -24,7 +26,7 @@ Sebelum mengikuti catatan ini, saya harap kalian sudah mempelajari tentang konse
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/pengenalan-python/&#34;&gt;0x0 Pengenalan Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/persiapan-memulai-pemrograman-python/&#34;&gt;0x1 Persiapan Memulai Pemrograman dengan Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/&#34;&gt;0x2 Membuat dan Menjalankan Kode Program Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeoftheghost.github.io/python/membuat-dan-menjalankan-kode-program-python/&#34;&gt;0x2 Membuat dan Menjalankan Kode Program Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
