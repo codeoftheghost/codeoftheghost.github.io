@@ -36,8 +36,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;784259136&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;784259136&#34;&gt;
+    &lt;input id=&#34;682791354&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;682791354&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -78,8 +78,8 @@ python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;641859723&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;641859723&#34;&gt;
+    &lt;input id=&#34;751849263&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;751849263&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -95,8 +95,8 @@ print(&amp;#34;Hello World!&amp;#34;)
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;684931752&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;684931752&#34;&gt;
+    &lt;input id=&#34;513792468&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;513792468&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -112,8 +112,8 @@ cd Ghost/python-cheat-sheet/basic/hello_world/
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;942867531&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;942867531&#34;&gt;
+    &lt;input id=&#34;683549217&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;683549217&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -178,8 +178,8 @@ python hello_world.py
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;296781453&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;296781453&#34;&gt;
+    &lt;input id=&#34;562749831&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;562749831&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -200,8 +200,8 @@ sudo dnf install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;431259786&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;431259786&#34;&gt;
+    &lt;input id=&#34;623745198&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;623745198&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -250,8 +250,8 @@ sudo apt install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;286591437&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;286591437&#34;&gt;
+    &lt;input id=&#34;875391426&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;875391426&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -267,8 +267,8 @@ python --version
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;926534718&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;926534718&#34;&gt;
+    &lt;input id=&#34;854239617&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;854239617&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -284,8 +284,8 @@ Python 3.12.7
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;326954187&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;326954187&#34;&gt;
+    &lt;input id=&#34;678314295&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;678314295&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -301,8 +301,8 @@ bash: python: command not found...
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;519246387&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;519246387&#34;&gt;
+    &lt;input id=&#34;145289763&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;145289763&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -317,8 +317,8 @@ sudo dnf install python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;183269745&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;183269745&#34;&gt;
+    &lt;input id=&#34;813527649&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;813527649&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
