@@ -36,8 +36,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;682791354&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;682791354&#34;&gt;
+    &lt;input id=&#34;914325768&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;914325768&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -60,6 +60,30 @@ python
 
 &lt;p&gt;Perhatikan hasil yang ditampilkan pada gambar diatas, tidak terdapat simbol &lt;mark&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/mark&gt;. Ini cara interpreter interaktif python memberitahukan kepada pengguna, mana perintah yang diinput/dimasukkan pengguna, dan mana hasil yang ditampilkan.&lt;/p&gt;
 &lt;p&gt;Untuk keluar dari interpreter interaktif ini, terdapat beberapa cara. Namun cara yang paling mudah ialah, kita bisa menggunakan kombinasi &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt; di keyboard.&lt;/p&gt;
+&lt;h3 id=&#34;kelebihan-metode-interpreter-interaktif&#34;&gt;Kelebihan Metode Interpreter Interaktif&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Metode ini sangat cocok untuk digunakan bereksperimen cepat seperti mencoba ide atau menguji konsep. Karena kita dapat dengan mudah menulis, menjalankan, dan dapat langsung melihat hasilnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bagi pemula yang baru mempelajari bahasa pemrograman python, metode ini sangat berguna untuk memudahkan pemahaman kita tentang konsep dan fungsi yang disediakan oleh bahasa python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tidak membutuhkan persiapan lebih lanjut, karena kita cukup membuka interpreter python dengan terminal, dan kita sudah langsung bisa melakukan pemrograman dengan python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sangat membantu dan efektif untuk debugging, karena kita bisa menjalankan perintah satu per-satu dan melihat hasilnya. Ini memudahkan kita dalam menemukan dan memperbaiki bug.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kekurangan-metode-interpreter-interaktif&#34;&gt;Kekurangan Metode Interpreter Interaktif&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kode yang diketikkan dan dijalankan pada metode ini tidak tersimpan saat sesi interaktifnya ditututp. Ini mengharuskan kita untuk menuliskan kembali kode program yang ingin dijalankan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kelebihan metode ini untuk menjalankan dan langsung melihat hasilnya saat itu juga memiliki membawa ke&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;python-script&#34;&gt;Python Script&lt;/h2&gt;
 &lt;p&gt;Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi &lt;mark&gt;.py&lt;/mark&gt;.&lt;/p&gt;
 &lt;p&gt;Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama &lt;mark&gt;hello_word.py&lt;/mark&gt;.&lt;/p&gt;
@@ -78,8 +102,8 @@ python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;751849263&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;751849263&#34;&gt;
+    &lt;input id=&#34;675149832&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;675149832&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -95,8 +119,8 @@ print(&amp;#34;Hello World!&amp;#34;)
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;513792468&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;513792468&#34;&gt;
+    &lt;input id=&#34;534689712&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;534689712&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -112,8 +136,8 @@ cd Ghost/python-cheat-sheet/basic/hello_world/
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;683549217&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;683549217&#34;&gt;
+    &lt;input id=&#34;573496821&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;573496821&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -178,8 +202,8 @@ python hello_world.py
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;562749831&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;562749831&#34;&gt;
+    &lt;input id=&#34;169842735&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;169842735&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -200,8 +224,8 @@ sudo dnf install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;623745198&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;623745198&#34;&gt;
+    &lt;input id=&#34;237581496&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;237581496&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -250,8 +274,8 @@ sudo apt install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;875391426&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;875391426&#34;&gt;
+    &lt;input id=&#34;235169847&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;235169847&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -267,8 +291,8 @@ python --version
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;854239617&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;854239617&#34;&gt;
+    &lt;input id=&#34;493726185&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;493726185&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -284,8 +308,8 @@ Python 3.12.7
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;678314295&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;678314295&#34;&gt;
+    &lt;input id=&#34;836745192&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;836745192&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -301,8 +325,8 @@ bash: python: command not found...
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;145289763&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;145289763&#34;&gt;
+    &lt;input id=&#34;238795641&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;238795641&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -317,8 +341,8 @@ sudo dnf install python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;813527649&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;813527649&#34;&gt;
+    &lt;input id=&#34;612953748&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;612953748&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
