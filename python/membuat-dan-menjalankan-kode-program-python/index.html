@@ -186,16 +186,14 @@
   <ul>
     <li><a href="#membuat-dan-menjalanakan-kode-program-python">Membuat dan Menjalanakan Kode Program Python</a>
       <ul>
-        <li><a href="#interpreter-interaktif">Interpreter Interaktif</a>
-          <ul>
-            <li><a href="#kelebihan-metode-interpreter-interaktif">Kelebihan Metode Interpreter Interaktif</a></li>
-            <li><a href="#kekurangan-metode-interpreter-interaktif">Kekurangan Metode Interpreter Interaktif</a></li>
-          </ul>
-        </li>
-        <li><a href="#python-script">Python Script</a>
+        <li><a href="#interpreter-interaktif">Interpreter Interaktif</a></li>
+        <li><a href="#python-script">Python Script</a></li>
+        <li><a href="#kelebihan-dan-kelemahan-dari-masing-masing-metode">Kelebihan dan Kelemahan dari Masing-masing Metode</a>
           <ul>
             <li><a href="#kelebihan-metode-python-script">Kelebihan Metode Python Script</a></li>
             <li><a href="#kekurangan-metode-python-script">Kekurangan Metode Python Script</a></li>
+            <li><a href="#kelebihan-metode-interpreter-interaktif">Kelebihan Metode Interpreter Interaktif</a></li>
+            <li><a href="#kekurangan-metode-interpreter-interaktif">Kekurangan Metode Interpreter Interaktif</a></li>
           </ul>
         </li>
       </ul>
@@ -225,8 +223,8 @@
 
 
   <div class="collapsable-code">
-    <input id="914325768" type="checkbox"  />
-    <label for="914325768">
+    <input id="829467513" type="checkbox"  />
+    <label for="829467513">
       <span class="collapsable-code__language">sh</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -249,6 +247,102 @@ python
 
 <p>Perhatikan hasil yang ditampilkan pada gambar diatas, tidak terdapat simbol <mark>&gt;&gt;&gt;</mark>. Ini cara interpreter interaktif python memberitahukan kepada pengguna, mana perintah yang diinput/dimasukkan pengguna, dan mana hasil yang ditampilkan.</p>
 <p>Untuk keluar dari interpreter interaktif ini, terdapat beberapa cara. Namun cara yang paling mudah ialah, kita bisa menggunakan kombinasi <kbd>CTRL</kbd> + <kbd>D</kbd> di keyboard.</p>
+<h2 id="python-script">Python Script<a href="#python-script" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi <mark>.py</mark>.</p>
+<p>Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama <mark>hello_word.py</mark>.</p>
+
+  <figure class="center" >
+    <img src="/images/python/python-source-code-file.png"  alt="File Kode Sumber Python"   />
+    
+      <figcaption class="center" >File Kode Sumber Python</figcaption>
+    
+  </figure>
+
+
+<p>Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi <mark>.py</mark>. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).</p>
+<p>Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="245967318" type="checkbox"  />
+    <label for="245967318">
+      <span class="collapsable-code__language">py</span>
+      <span class="collapsable-code__title">hello_world.py</span>
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-py" ><code>
+print(&#34;Hello World!&#34;)
+</code></pre>
+  </div>
+
+
+<p>Simpan file tersebut, bisa dengan menggunakan shortcut <kbd>ctrl</kbd> + <kbd>S</kbd>. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori <em>&ldquo;Ghost/python-cheat-sheet/basic/hello_world/&rdquo;</em>.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="246937581" type="checkbox"  />
+    <label for="246937581">
+      <span class="collapsable-code__language">sh</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-sh" ><code>
+cd Ghost/python-cheat-sheet/basic/hello_world/
+</code></pre>
+  </div>
+
+
+<p>Kemudian jalankan file kode sumber tersebut dengan perintah <mark> python &lt;nama-file-kode-sumber.py&gt;</mark>, seperti contoh dibawah ini:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="758213496" type="checkbox"  />
+    <label for="758213496">
+      <span class="collapsable-code__language">sh</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-sh" ><code>
+python hello_world.py
+</code></pre>
+  </div>
+
+
+<p>Setelah kita menekan <kbd>Enter</kbd>, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber <mark>hello_world.py</mark>, dan pada terminal akan tampil teks &ldquo;Hello World!&rdquo;.</p>
+
+  <figure class="center" >
+    <img src="/images/python/run-hello-world-python.png"  alt="Menjalankan Kode Program Python"   />
+    
+      <figcaption class="center" >Menjalankan Kode Program Python</figcaption>
+    
+  </figure>
+
+
+<h2 id="kelebihan-dan-kelemahan-dari-masing-masing-metode">Kelebihan dan Kelemahan dari Masing-masing Metode<a href="#kelebihan-dan-kelemahan-dari-masing-masing-metode" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Dari dua metode yang sudah saya jelaskan diatas secara ringkas, masing-masing metode memiliki kelebihan dan kelemahannya masing-masing. Berikut beberapa diantaranya:</p>
+<h3 id="kelebihan-metode-python-script">Kelebihan Metode Python Script<a href="#kelebihan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:</p>
+<ul>
+<li>
+<p>Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.</p>
+</li>
+<li>
+<p>Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.</p>
+</li>
+</ul>
+<h3 id="kekurangan-metode-python-script">Kekurangan Metode Python Script<a href="#kekurangan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:</p>
+<ul>
+<li>
+<p>Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.</p>
+</li>
+<li>
+<p>Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.</p>
+</li>
+</ul>
 <h3 id="kelebihan-metode-interpreter-interaktif">Kelebihan Metode Interpreter Interaktif<a href="#kelebihan-metode-interpreter-interaktif" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
 <li>
@@ -271,100 +365,6 @@ python
 </li>
 <li>
 <p>Kelebihan metode ini untuk menjalankan dan langsung melihat hasilnya saat itu juga memiliki membawa ke</p>
-</li>
-</ul>
-<h2 id="python-script">Python Script<a href="#python-script" class="hanchor" ariaLabel="Anchor">#</a> </h2>
-<p>Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi <mark>.py</mark>.</p>
-<p>Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama <mark>hello_word.py</mark>.</p>
-
-  <figure class="center" >
-    <img src="/images/python/python-source-code-file.png"  alt="File Kode Sumber Python"   />
-    
-      <figcaption class="center" >File Kode Sumber Python</figcaption>
-    
-  </figure>
-
-
-<p>Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi <mark>.py</mark>. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).</p>
-<p>Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:</p>
-
-
-
-  <div class="collapsable-code">
-    <input id="675149832" type="checkbox"  />
-    <label for="675149832">
-      <span class="collapsable-code__language">py</span>
-      <span class="collapsable-code__title">hello_world.py</span>
-      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
-    </label>
-    <pre class="language-py" ><code>
-print(&#34;Hello World!&#34;)
-</code></pre>
-  </div>
-
-
-<p>Simpan file tersebut, bisa dengan menggunakan shortcut <kbd>ctrl</kbd> + <kbd>S</kbd>. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori <em>&ldquo;Ghost/python-cheat-sheet/basic/hello_world/&rdquo;</em>.</p>
-
-
-
-  <div class="collapsable-code">
-    <input id="534689712" type="checkbox"  />
-    <label for="534689712">
-      <span class="collapsable-code__language">sh</span>
-      
-      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
-    </label>
-    <pre class="language-sh" ><code>
-cd Ghost/python-cheat-sheet/basic/hello_world/
-</code></pre>
-  </div>
-
-
-<p>Kemudian jalankan file kode sumber tersebut dengan perintah <mark> python &lt;nama-file-kode-sumber.py&gt;</mark>, seperti contoh dibawah ini:</p>
-
-
-
-  <div class="collapsable-code">
-    <input id="573496821" type="checkbox"  />
-    <label for="573496821">
-      <span class="collapsable-code__language">sh</span>
-      
-      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
-    </label>
-    <pre class="language-sh" ><code>
-python hello_world.py
-</code></pre>
-  </div>
-
-
-<p>Setelah kita menekan <kbd>Enter</kbd>, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber <mark>hello_world.py</mark>, dan pada terminal akan tampil teks &ldquo;Hello World!&rdquo;.</p>
-
-  <figure class="center" >
-    <img src="/images/python/run-hello-world-python.png"  alt="Menjalankan Kode Program Python"   />
-    
-      <figcaption class="center" >Menjalankan Kode Program Python</figcaption>
-    
-  </figure>
-
-
-<h3 id="kelebihan-metode-python-script">Kelebihan Metode Python Script<a href="#kelebihan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:</p>
-<ul>
-<li>
-<p>Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.</p>
-</li>
-<li>
-<p>Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.</p>
-</li>
-</ul>
-<h3 id="kekurangan-metode-python-script">Kekurangan Metode Python Script<a href="#kekurangan-metode-python-script" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:</p>
-<ul>
-<li>
-<p>Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.</p>
-</li>
-<li>
-<p>Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.</p>
 </li>
 </ul>
 

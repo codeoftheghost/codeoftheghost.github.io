@@ -36,8 +36,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;914325768&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;914325768&#34;&gt;
+    &lt;input id=&#34;829467513&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;829467513&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -60,6 +60,102 @@ python
 
 &lt;p&gt;Perhatikan hasil yang ditampilkan pada gambar diatas, tidak terdapat simbol &lt;mark&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/mark&gt;. Ini cara interpreter interaktif python memberitahukan kepada pengguna, mana perintah yang diinput/dimasukkan pengguna, dan mana hasil yang ditampilkan.&lt;/p&gt;
 &lt;p&gt;Untuk keluar dari interpreter interaktif ini, terdapat beberapa cara. Namun cara yang paling mudah ialah, kita bisa menggunakan kombinasi &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt; di keyboard.&lt;/p&gt;
+&lt;h2 id=&#34;python-script&#34;&gt;Python Script&lt;/h2&gt;
+&lt;p&gt;Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi &lt;mark&gt;.py&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama &lt;mark&gt;hello_word.py&lt;/mark&gt;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-source-code-file.png&#34;  alt=&#34;File Kode Sumber Python&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;File Kode Sumber Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi &lt;mark&gt;.py&lt;/mark&gt;. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).&lt;/p&gt;
+&lt;p&gt;Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;245967318&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;245967318&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-py&#34; &gt;&lt;code&gt;
+print(&amp;#34;Hello World!&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Simpan file tersebut, bisa dengan menggunakan shortcut &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori &lt;em&gt;&amp;ldquo;Ghost/python-cheat-sheet/basic/hello_world/&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;246937581&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;246937581&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+cd Ghost/python-cheat-sheet/basic/hello_world/
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Kemudian jalankan file kode sumber tersebut dengan perintah &lt;mark&gt; python &amp;lt;nama-file-kode-sumber.py&amp;gt;&lt;/mark&gt;, seperti contoh dibawah ini:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;758213496&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;758213496&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
+python hello_world.py
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Setelah kita menekan &lt;kbd&gt;Enter&lt;/kbd&gt;, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber &lt;mark&gt;hello_world.py&lt;/mark&gt;, dan pada terminal akan tampil teks &amp;ldquo;Hello World!&amp;rdquo;.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/run-hello-world-python.png&#34;  alt=&#34;Menjalankan Kode Program Python&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Menjalankan Kode Program Python&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;h2 id=&#34;kelebihan-dan-kelemahan-dari-masing-masing-metode&#34;&gt;Kelebihan dan Kelemahan dari Masing-masing Metode&lt;/h2&gt;
+&lt;p&gt;Dari dua metode yang sudah saya jelaskan diatas secara ringkas, masing-masing metode memiliki kelebihan dan kelemahannya masing-masing. Berikut beberapa diantaranya:&lt;/p&gt;
+&lt;h3 id=&#34;kelebihan-metode-python-script&#34;&gt;Kelebihan Metode Python Script&lt;/h3&gt;
+&lt;p&gt;Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kekurangan-metode-python-script&#34;&gt;Kekurangan Metode Python Script&lt;/h3&gt;
+&lt;p&gt;Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;kelebihan-metode-interpreter-interaktif&#34;&gt;Kelebihan Metode Interpreter Interaktif&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -82,100 +178,6 @@ python
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Kelebihan metode ini untuk menjalankan dan langsung melihat hasilnya saat itu juga memiliki membawa ke&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;python-script&#34;&gt;Python Script&lt;/h2&gt;
-&lt;p&gt;Python script merupakan metode atau cara menjalankan kode program python, dengan cara menuliskan semua kode program kedalam sebuah file. File yang berisi kode program ini umumnya disebut sebagai file kode sumber/source code. Khusus pada bahasa pemrograman interpreted seperti pyton, file ini kadang juga disebut sebagai file script. Di catatan ini, saya akan menggunakan istilah file kode sumber untuk penyebutan file ini. Di python, file kode sumber memiliki ekstensi &lt;mark&gt;.py&lt;/mark&gt;.&lt;/p&gt;
-&lt;p&gt;Untuk mulai menggunakan metode ini, pertama-tama kita buat sebuah file kode sumber. Pada contoh ini, saya membuat file kode sumber dengan nama &lt;mark&gt;hello_word.py&lt;/mark&gt;.&lt;/p&gt;
-
-  &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/python-source-code-file.png&#34;  alt=&#34;File Kode Sumber Python&#34;   /&gt;
-    
-      &lt;figcaption class=&#34;center&#34; &gt;File Kode Sumber Python&lt;/figcaption&gt;
-    
-  &lt;/figure&gt;
-
-
-&lt;p&gt;Kalian bebas mau menamai file tersebut apa saja, tetapi harus menggunakan ekstensi &lt;mark&gt;.py&lt;/mark&gt;. Karena extensi ini berfungsi sebagai identitas yang menunjukkan bahwa file tersebut ialah file kode sumber yang ditulis dengan bahasa pemrograman pyton. Selain itu, meskipun bisa tetapi disarankan untuk tidak menggunakan karakter spasi pada nama file. Kita bisa mengganti penggunaan karakter spasi dengan karakter karakter dash (-) atau underscore (_).&lt;/p&gt;
-&lt;p&gt;Kemudian buka file kode sumber yang sudah kita buat tadi dengan kode editor VSCode atau kode editor yang kalian gunakan, lalu ketikkan kode program dibawah ini:&lt;/p&gt;
-
-
-
-  &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;675149832&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;675149832&#34;&gt;
-      &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
-      &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
-      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
-    &lt;/label&gt;
-    &lt;pre class=&#34;language-py&#34; &gt;&lt;code&gt;
-print(&amp;#34;Hello World!&amp;#34;)
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-
-&lt;p&gt;Simpan file tersebut, bisa dengan menggunakan shortcut &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;. Kemudian buka terminal dan arahkan ke direktori tempat kita menyimpan file kode sumber tersebut. Pada contoh ini, saya menyimpan file kode sumbernya di direktori &lt;em&gt;&amp;ldquo;Ghost/python-cheat-sheet/basic/hello_world/&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
-
-
-
-  &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;534689712&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;534689712&#34;&gt;
-      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
-      
-      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
-    &lt;/label&gt;
-    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
-cd Ghost/python-cheat-sheet/basic/hello_world/
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-
-&lt;p&gt;Kemudian jalankan file kode sumber tersebut dengan perintah &lt;mark&gt; python &amp;lt;nama-file-kode-sumber.py&amp;gt;&lt;/mark&gt;, seperti contoh dibawah ini:&lt;/p&gt;
-
-
-
-  &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;573496821&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;573496821&#34;&gt;
-      &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
-      
-      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
-    &lt;/label&gt;
-    &lt;pre class=&#34;language-sh&#34; &gt;&lt;code&gt;
-python hello_world.py
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-
-&lt;p&gt;Setelah kita menekan &lt;kbd&gt;Enter&lt;/kbd&gt;, interpreter python akan menjalankan kode program yang kita tulis pada file kode sumber &lt;mark&gt;hello_world.py&lt;/mark&gt;, dan pada terminal akan tampil teks &amp;ldquo;Hello World!&amp;rdquo;.&lt;/p&gt;
-
-  &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;https://codeoftheghost.github.io/images/python/run-hello-world-python.png&#34;  alt=&#34;Menjalankan Kode Program Python&#34;   /&gt;
-    
-      &lt;figcaption class=&#34;center&#34; &gt;Menjalankan Kode Program Python&lt;/figcaption&gt;
-    
-  &lt;/figure&gt;
-
-
-&lt;h3 id=&#34;kelebihan-metode-python-script&#34;&gt;Kelebihan Metode Python Script&lt;/h3&gt;
-&lt;p&gt;Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;kekurangan-metode-python-script&#34;&gt;Kekurangan Metode Python Script&lt;/h3&gt;
-&lt;p&gt;Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Karena kita tidak dapat melihat hasilnya secara langsung, metode ini menjadi tidak ideal untuk eksperimen cepat. Dimana jika kita ingin mencoba kode program python tertentu dan ingin langsung melihat hasilnya, menggunakan metode ini agak berlebihan dan merepotkan.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>

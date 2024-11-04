@@ -28,8 +28,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;169842735&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;169842735&#34;&gt;
+    &lt;input id=&#34;426317985&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;426317985&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -50,8 +50,8 @@ sudo dnf install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;237581496&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;237581496&#34;&gt;
+    &lt;input id=&#34;547162893&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;547162893&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -100,8 +100,8 @@ sudo apt install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;235169847&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;235169847&#34;&gt;
+    &lt;input id=&#34;349862751&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;349862751&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -117,8 +117,8 @@ python --version
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;493726185&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;493726185&#34;&gt;
+    &lt;input id=&#34;562819473&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;562819473&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -134,8 +134,8 @@ Python 3.12.7
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;836745192&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;836745192&#34;&gt;
+    &lt;input id=&#34;945762318&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;945762318&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -151,8 +151,8 @@ bash: python: command not found...
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;238795641&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;238795641&#34;&gt;
+    &lt;input id=&#34;251693784&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;251693784&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -167,8 +167,8 @@ sudo dnf install python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;612953748&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;612953748&#34;&gt;
+    &lt;input id=&#34;843756912&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;843756912&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
