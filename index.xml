@@ -36,8 +36,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;829467513&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;829467513&#34;&gt;
+    &lt;input id=&#34;792463851&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;792463851&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -78,8 +78,8 @@ python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;245967318&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;245967318&#34;&gt;
+    &lt;input id=&#34;469875213&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;469875213&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;hello_world.py&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -95,8 +95,8 @@ print(&amp;#34;Hello World!&amp;#34;)
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;246937581&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;246937581&#34;&gt;
+    &lt;input id=&#34;624187359&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;624187359&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -112,8 +112,8 @@ cd Ghost/python-cheat-sheet/basic/hello_world/
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;758213496&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;758213496&#34;&gt;
+    &lt;input id=&#34;426938751&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;426938751&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -137,17 +137,15 @@ python hello_world.py
 &lt;h2 id=&#34;kelebihan-dan-kelemahan-dari-masing-masing-metode&#34;&gt;Kelebihan dan Kelemahan dari Masing-masing Metode&lt;/h2&gt;
 &lt;p&gt;Dari dua metode yang sudah saya jelaskan diatas secara ringkas, masing-masing metode memiliki kelebihan dan kelemahannya masing-masing. Berikut beberapa diantaranya:&lt;/p&gt;
 &lt;h3 id=&#34;kelebihan-metode-python-script&#34;&gt;Kelebihan Metode Python Script&lt;/h3&gt;
-&lt;p&gt;Metode ini memiliki beberapa kelebihan untuk kita gunakan dalam menjalan kode program python. Diantaranya ialah:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Cocok untuk mengembangkan program yang lebih besar dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.&lt;/p&gt;
+&lt;p&gt;Cocok untuk mengembangkan program yang lebih besar dan kompleks dengan banyak file kode sumber. Kode program dapat kita bagi kedalam fungsi, kelas, dan modul, serta dapat kita pisahkan menjadi beberapa file kode sumber agar kode program yang kita tulis menjadi lebih terstruktur.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Kode yang kita tulis bersifat persistent, karena tersimpan didalam file kode sumber. Sehingga, kita dapat dengan mudah membagikan kode yang kita tulis dengan orang lain, dan dapat kita jalankan kapan saja tanpa harus menulis kembali kode programnya.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;kekurangan-metode-python-script&#34;&gt;Kekurangan Metode Python Script&lt;/h3&gt;
-&lt;p&gt;Tentu selain memiliki kelebihan, metode ini juga memiliki kekurangannya. Diantaranya ialah:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Kode program yang kita tulis tidak dapat langsung kita lihat hasilnya seperti di metode interpreter interaktif. Karena metode ini mengharuskan kita membuat file kode sumber, menulis dan menyimpan kode program-nya, lalu menjalankannya untuk melihat hasilnya.&lt;/p&gt;
@@ -159,7 +157,7 @@ python hello_world.py
 &lt;h3 id=&#34;kelebihan-metode-interpreter-interaktif&#34;&gt;Kelebihan Metode Interpreter Interaktif&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Metode ini sangat cocok untuk digunakan bereksperimen cepat seperti mencoba ide atau menguji konsep. Karena kita dapat dengan mudah menulis, menjalankan, dan dapat langsung melihat hasilnya.&lt;/p&gt;
+&lt;p&gt;Metode ini sangat cocok untuk digunakan bereksperimen cepat seperti mencoba ide atau menguji konsep. Karena kita dapat dengan cepat menulis dan mengeksekusi untuk melihat hasilnya tanpa perlu membuat dan menyimpan file seperti pada metode python script.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Bagi pemula yang baru mempelajari bahasa pemrograman python, metode ini sangat berguna untuk memudahkan pemahaman kita tentang konsep dan fungsi yang disediakan oleh bahasa python.&lt;/p&gt;
@@ -177,7 +175,10 @@ python hello_world.py
 &lt;p&gt;Kode yang diketikkan dan dijalankan pada metode ini tidak tersimpan saat sesi interaktifnya ditututp. Ini mengharuskan kita untuk menuliskan kembali kode program yang ingin dijalankan.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Kelebihan metode ini untuk menjalankan dan langsung melihat hasilnya saat itu juga memiliki membawa ke&lt;/p&gt;
+&lt;p&gt;Tidak ideal untuk mengembangkan program yang besar dan kompleks, karena kode program yang dituliskan tidak tersimpan seperti pada penjelasan diatas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Metode ini hanya dapat menjalankan dan melihat hasil secara satu per-satu, sehingga tidak cocok digunakan untuk menjalankan kode program yang terkait dengan kode program lainnya atau kode yang berulang.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -204,8 +205,8 @@ python hello_world.py
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;426317985&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;426317985&#34;&gt;
+    &lt;input id=&#34;431659278&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;431659278&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -226,8 +227,8 @@ sudo dnf install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;547162893&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;547162893&#34;&gt;
+    &lt;input id=&#34;195684237&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;195684237&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -276,8 +277,8 @@ sudo apt install code
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;349862751&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;349862751&#34;&gt;
+    &lt;input id=&#34;651492783&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;651492783&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -293,8 +294,8 @@ python --version
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;562819473&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;562819473&#34;&gt;
+    &lt;input id=&#34;471689253&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;471689253&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -310,8 +311,8 @@ Python 3.12.7
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;945762318&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;945762318&#34;&gt;
+    &lt;input id=&#34;259613748&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;259613748&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -327,8 +328,8 @@ bash: python: command not found...
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;251693784&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;251693784&#34;&gt;
+    &lt;input id=&#34;637951842&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;637951842&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi RedHat, Fedora, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -343,8 +344,8 @@ sudo dnf install python
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;843756912&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;843756912&#34;&gt;
+    &lt;input id=&#34;842653179&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;842653179&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;sh&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Distribusi Debian, Ubuntu, dan turunannya&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
